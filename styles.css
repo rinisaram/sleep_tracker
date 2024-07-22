@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #322a5c
+
+    ;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.tracker-image {
+    width: 550px; /* Adjust the width as needed */
+    border-radius: 15px;
+    margin-right: 20px; /* Space between image and card */
+}
+
+.tracker-container {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+h2, h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    flex-grow: 1;
+    text-align: center;
+    margin: 0 10px;
+}
+
+button {
+    background-color: orange;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e69500;
+}
+
+#decreaseBtn, #increaseBtn {
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#submitBtn {
+    display: block;
+    margin: 0 auto; /* Center the button */
+    padding: 10px 20px;
+    border-radius: 15px;
+
+}
+
+#resetBtn{
+    display: block;
+    margin: 0 auto; /* Center the button */
+    padding: 10px 22px;
+    border-radius: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}

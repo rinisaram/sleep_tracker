@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sleep Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="sleep.jpg" alt="Description of image" class="tracker-image">
+        <div class="tracker-container">
+            <h2>SLEEP TRACKER</h2>
+            <p><strong>How much did you sleep?</strong></p>
+            <div class="input-container">
+                <button id="decreaseBtn">-</button>
+                <input type="text" id="sleepInput" placeholder="Time in hrs">
+                <button id="increaseBtn">+</button>
+            </div>
+            <button id="submitBtn">Submit</button>
+            <p> </p>
+            <button id="resetBtn">Reset</button>
+
+            <p id="averageSleep">Average Sleep: 0 hours</p>
+            <table id="sleepTable">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Hours</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
